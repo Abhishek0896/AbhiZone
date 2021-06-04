@@ -18,6 +18,17 @@ gem 'webpacker', '~> 5.0'
 gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.7'
+# Use CoffeeScript for .coffee assets and views
+gem 'coffee-rails', '~> 4.2'
+# Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
+# Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
+# javascript lib for showing flash messages
+gem 'toastr-rails'
+
+# Bootstrap >=4.3.1
+gem 'bootstrap', '~> 4.3.1'
+# To file resize, preview etc
+gem 'image_processing', '~> 1.2'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use Active Model has_secure_password
