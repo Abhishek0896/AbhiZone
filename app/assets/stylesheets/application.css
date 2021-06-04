@@ -11,10 +11,3 @@
  * It is generally better to create a new file per style scope.
  *
  */
-
-@import "font_awesome5_webfont";
-@import "dataTables.1.10.19.bootstrap4.min";
-@import "icheck-bootstrap";
-@import "dataTable_custom";
-@import "toastr";
-@import "main_style";
