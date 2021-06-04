@@ -1,7 +1,6 @@
 # frozen_string_literal:true
 
 class MoviesController < ApplicationController
-  before_action { @top_header = 'Movies' }
   before_action :find_movie, only: %i[edit update destroy]
   before_action :build_movie, only: %i[new create]
   def index
